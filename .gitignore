@@ -1,0 +1,51 @@
+# Python-related ignores
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+env3/
+.venv/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook checkpoints
+*.ipynb_checkpoints/
+
+# Virtual environment
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+*.egg
+
+# macOS-specific
+.DS_Store
+
+# Windows-specific
+Thumbs.db
+
+# Large datasets or output files (if any)
+data/
+output/
+*.csv
+*.pickle
+*.joblib
+
+# IDE-specific
+.idea/           # PyCharm
+*.vscode/        # VS Code
+*.sublime-workspace
+
+# Logs
+*.log
+
+# Personal files
+*.env            # Environment variablesgit 
