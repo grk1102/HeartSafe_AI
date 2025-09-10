@@ -36,8 +36,10 @@ Thumbs.db
 data/
 output/
 *.csv
+!Heart.csv  # Allow UCI dataset
 *.pickle
-*.joblib
+!hybrid_model.joblib  # Allow model
+!scaler.joblib        # Allow scaler
 
 # IDE-specific
 .idea/           # PyCharm
@@ -48,4 +50,4 @@ output/
 *.log
 
 # Personal files
-*.env            # Environment variablesgit 
+*.env            # Environment variables
